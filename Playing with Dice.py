@@ -2,11 +2,11 @@ a,b=map(int, input().split() )
 casosFavorablesParaA=0
 casosFavorablesParaB=0
 empates=0
-
+ 
 #primero caso ambos dados son iguales
 if a==b:
     print("0 6 0")
-
+ 
 # 'a' es menor a 'b' entonces a esta mas cerca del 1
 if a<b:
     m=(a+b)//2  #m:valor entero medio entre a y b
@@ -31,5 +31,4 @@ if a>b:   #entonces 'b' esta mas cerca al 1
     print(empates,end=" ")
     print(casosFavorablesParaB)
 
-    
-    
+#otra manera de hacerlo es con una matriz[7][7] y en el que este los 36 posibles resultados
